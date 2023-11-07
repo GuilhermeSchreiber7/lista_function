@@ -8,11 +8,13 @@
     */
 
     //Entrada
-
+    let r = Number(prompt(`Raio do círculo`).trim());
 
     //Processamento
-
-
+    function area(r){
+        alert(`O peŕimetro é ${(r*Math.PI*2).toFixed(3)} \n e a área é ${(Math.PI*(r*r)).toFixed(3)}`)
+    }
+    area(r)
     //Saída
 
 </script>
